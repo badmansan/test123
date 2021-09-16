@@ -1,0 +1,19 @@
+{
+    "name": "badmansan/test123",
+    "description": "Send SMS thru different message services",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "require": {
+        "giggsey/libphonenumber-for-php": "8.x-dev"
+    }
+}
